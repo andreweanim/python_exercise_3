@@ -32,7 +32,7 @@ plt.scatter(centroids[:, 0], centroids[:, 1], c="black", marker="X", label="Cent
 plt.xlabel("Bill Length (mm)")
 plt.ylabel("Bill Depth (mm)")
 plt.title("Penguin Clustering with K-Means")
-plt.legend()
+plt.legend(loc='upper right')
 plt.show()
 
 # Evaluate the model and find the accuracy of your model
